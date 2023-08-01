@@ -54,114 +54,114 @@ body {
   background: rgb(9, 243, 114);
   transition: background 1s;
 
-}.btn2{
-
-font-family: monospace;
-position: relative;
-padding: 10px 8px;
-width: 120px;
-color: var(--color-font);
-background: rgb(197, 187, 187);
-border-radius: 5px;
-text-align: center;
-user-select: none;
-cursor: pointer;
-right: -610px;
-top: -294px;
-
-}.btn2:hover{
-
-background: rgb(9, 243, 114);
-transition: background 1s;
-
-}.btn3{
-
-font-family: monospace;
-position: relative;
-padding: 10px 8px;
-width: 175px;
-color: rgb(0,0,0);
-background: rgb(197, 187, 187);
-border-radius: 5px;
-text-align: center;
-user-select: none;
-cursor: pointer;
-right: -230px;
-top: -224px;
-
-}.btn3:hover{
-
-background: rgb(9, 243, 114);
-transition: background 1s;
 }
+
+.btn2{
+  font-family: monospace;
+  position: relative;
+  padding: 10px 8px;
+  width: 120px;
+  color: var(--color-font);
+  background: rgb(197, 187, 187);
+  border-radius: 5px;
+  text-align: center;
+  user-select: none;
+  cursor: pointer;
+  right: -610px;
+  top: -294px;
+}
+
+.btn2:hover{
+  background: rgb(9, 243, 114);
+  transition: background 1s;
+}
+
+.btn3{
+  font-family: monospace;
+  position: relative;
+  padding: 10px 8px;
+  width: 175px;
+  color: rgb(0,0,0);
+  background: rgb(197, 187, 187);
+  border-radius: 5px;
+  text-align: center;
+  user-select: none;
+  cursor: pointer;
+  right: -230px;
+  top: -224px;
+}
+
+.btn3:hover{
+  background: rgb(9, 243, 114);
+  transition: background 1s;
+}
+
 .btn4{
-
-font-family: monospace;
-position: relative;
-padding: 10px 8px;
-width: 195px;
-color: rgb(0,0,0);
-background: rgb(197, 187, 187);
-border-radius: 5px;
-text-align: center;
-user-select: none;
-cursor: pointer;
-right: -760px;
-top: -328px;
-
-}.btn4:hover{
-
-background: rgb(9, 243, 114);
-transition: background 1s;
-
+  font-family: monospace;
+  position: relative;
+  padding: 10px 8px;
+  width: 195px;
+  color: rgb(0,0,0);
+  background: rgb(197, 187, 187);
+  border-radius: 5px;
+  text-align: center;
+  user-select: none;
+  cursor: pointer;
+  right: -760px;
+  top: -328px;
 }
+
+.btn4:hover{
+  background: rgb(9, 243, 114);
+  transition: background 1s;
+}
+
 .btn5{
-
-font-family: monospace;
-position: relative;
-padding: 10px 8px;
-width: 195px;
-color: rgb(0,0,0);
-background: rgb(197, 187, 187);
-border-radius: 5px;
-text-align: center;
-user-select: none;
-cursor: pointer;
-right: -995px;
-top: -363px;
-
-}.btn5:hover{
-
-background: rgb(9, 243, 114);
-transition: background 1s;
-
+  font-family: monospace;
+  position: relative;
+  padding: 10px 8px;
+  width: 195px;
+  color: rgb(0,0,0);
+  background: rgb(197, 187, 187);
+  border-radius: 5px;
+  text-align: center;
+  user-select: none;
+  cursor: pointer;
+  right: -995px;
+  top: -363px;
 }
-form{
 
+.btn5:hover{
+  background: rgb(9, 243, 114);
+  transition: background 1s;
+}
+
+form{
   position: absolute;
   top: 50%;
   right: 50;
 }
 
 footer {
-background-color: rgb(10, 10, 10);
-width: 100%;
-height: 130px;
-position: fixed;
-bottom: 0;
+  background-color: rgb(10, 10, 10);
+  width: 100%;
+  height: 130px;
+  position: fixed;
+  bottom: 0;
 }
 
 .RESUMO{
+  position: relative;
+  font-family: sans-serif;
+  color: white;
+  font-size: 10px;
+  top: 600px;
+  right: -1450px;
+  opacity: 0.8;
 
-position: relative;
-font-family: sans-serif;
-color: white;
-font-size: 10px;
-top: 600px;
-right: -1450px;
-opacity: 0.8;
+}
 
-}.social-icons {
+.social-icons {
   display: flex;
   justify-content: center;
   margin-top: 20px;
@@ -176,28 +176,31 @@ opacity: 0.8;
 
 .social-icons a i {
   font-size: 15px;
-}.footer-container {
+}
+
+.footer-container {
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
 
-}.contact-info h3{
-
+.contact-info h3{
   font-family: monospace;
   margin-bottom: 20px;
   color: #fff;
   position: relative;
   top: 10px;
-}.social-media h3{
+}
 
+.social-media h3{
   font-family: monospace;
   margin-bottom: 20px;
   color: #fff;
+}
 
-}.contact-info p {
-
+.contact-info p {
   font-size: 12px;
   position: relative;
   top: 1px;
